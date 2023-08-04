@@ -1,5 +1,3 @@
-Sure! Here's the English README for your GitHub repository:
-
 # API with Registration System using Flask and SQL Database
 
 This repository contains a Flask-based API that fetches data from a JSON file. In order to access the API and obtain the necessary API key, users are required to register on a Flask website. The registration details are stored in an SQL database, allowing users to log in again in the future.
