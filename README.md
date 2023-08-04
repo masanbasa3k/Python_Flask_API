@@ -78,3 +78,13 @@ git push origin feature/your-feature-name
 
 
 Feel free to customize this README according to your repository's specifics. Make sure to provide clear instructions, necessary setup details, and any additional information that users might find helpful. Good luck with your project!
+
+# Images
+
+<img width="1439" alt="Screenshot 2023-08-04 at 10 01 08 AM" src="https://github.com/masanbasa3k/Python_Flask_API/assets/66223190/582429d2-99d1-4967-ae78-1785224f502d">
+
+<img width="1440" alt="Screenshot 2023-08-04 at 10 00 05 AM" src="https://github.com/masanbasa3k/Python_Flask_API/assets/66223190/eef2ca43-7de6-4ae9-847f-69742db936b0">
+
+<img width="1437" alt="Screenshot 2023-08-04 at 10 00 47 AM" src="https://github.com/masanbasa3k/Python_Flask_API/assets/66223190/d0d11ed3-ce9a-432f-b9eb-5d7f4a3212e9">
+
+
