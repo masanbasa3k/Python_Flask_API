@@ -30,3 +30,34 @@ def get_data():
         return jsonify(sample_data)
     else:
         return jsonify({"message": "Unauthorized"}), 401
+    
+@views.route('/api/data', methods=['POST'])
+def create_data():
+    token = request.headers.get('Authorization')
+    if token and validate_token(token):
+        # Extract the data from the request and process it
+        # Example: data = request.get_json()
+        # Process the data and save it to the database
+        return jsonify({"message": "Data created successfully"}), 201
+    else:
+        return jsonify({"message": "Unauthorized"}), 401
+
+@views.route('/api/data/<int:data_id>', methods=['PUT'])
+def update_data(data_id):
+    token = request.headers.get('Authorization')
+    if token and validate_token(token):
+        # Extract the updated data from the request and process it
+        # Example: data = request.get_json()
+        # Process the data and update the corresponding data in the database
+        return jsonify({"message": "Data updated successfully"}), 200
+    else:
+        return jsonify({"message": "Unauthorized"}), 401
+
+@views.route('/api/data/<int:data_id>', methods=['DELETE'])
+def delete_data(data_id):
+    token = request.headers.get('Authorization')
+    if token and validate_token(token):
+        # Delete the corresponding data from the database
+        return jsonify({"message": "Data deleted successfully"}), 200
+    else:
+        return jsonify({"message": "Unauthorized"}), 401
